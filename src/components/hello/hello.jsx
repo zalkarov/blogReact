@@ -1,11 +1,18 @@
 import React from 'react';
 
-const hello = (props) => {
-    console.log(props);
+const hello = ({name, age}) => {
+    // console.log(props);
     return (
-        <p>
-            hello {props.name}
-        </p>
+        <>
+            <p>
+                hello {name}
+            </p>
+            <p>
+                age {age}
+            </p>
+        </>
+
+        
     );
 };
 

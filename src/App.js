@@ -1,18 +1,20 @@
 
 import './App.css';
-import Hello from './components/hello/hello'
+import Header from './components/Header/Header';
+import Hello from './components/Hello/Hello';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Hello world </h1>
-      <Hello name="zalkar" age=""/>
-      <Hobby />
-      <Hello name="arsen" />
-      <Hello name="kenan" />
+     <Header />
+      <Hello name="zalkar" age="17" />
+      <Hello name="arsen" age="25" />
+      <Hello name="kenan" age="23" />
+      <Footer />
     </div>
   );
-  }
+}
 
 export default App;
